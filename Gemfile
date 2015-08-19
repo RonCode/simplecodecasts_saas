@@ -47,6 +47,10 @@ gem 'stripe', '~> 1.24.0'
 # use figaro to hide secret keys
 gem 'figaro', '~> 1.1.1'
 
+# Paperclip used for adding images to profile
+# installed ImageMagik for paperclip by running "sudo apt-get install imagemagick -y"
+gem 'paperclip', '~> 4.2.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
