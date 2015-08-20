@@ -1,12 +1,15 @@
+//Users Avatar Styles
 .avatar-img {
   -webkit-box-shadow: 6px 6px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    6px 6px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         6px 6px 5px 0px rgba(50, 50, 50, 0.75);
   border-radius: 50%;
   border: 2px solid white;
-  
+  height: 128px;
+  width: 128px;
 }
   
+//User Index Page Styles  
 .job-title-icon {
   display: inline-block;
   width: 30px;
@@ -34,4 +37,8 @@
   h3 {
     margin-top: 0px;
   }
+}
+
+.well.white-bg {
+  background-color: white;
 }
