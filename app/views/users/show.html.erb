@@ -11,10 +11,12 @@
     </div>
     
     <div class="well contact-info">
-      <h3>Contact Info</h3>
       <% if current_user.plan_id == 2 %>
+        <h3>Contact Info</h3>
         <%= @user.profile.phone_number %><br/>
         <%= @user.profile.contact_email %><br/>
+      <% else %>
+        Sign up for Pro membership to view contact info!
       <% end %>
     </div>
   </div>
